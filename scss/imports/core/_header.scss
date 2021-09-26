@@ -1,0 +1,40 @@
+// css header
+header {
+    padding-top: 30px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            a {
+                font-family: "eb";
+                font-size: 54px;
+                color: $red-cl;
+                text-decoration: none;
+            }
+        }
+        .menu {
+            .menu__list {
+                display: flex;
+                .menu__list-item {
+                    background-color: $red-cl;
+                    box-sizing: border-box;
+                    margin: 0 20px;
+                    padding: 8px 12px;
+                    border-radius: 25px;
+                    a {
+                        padding: 12px 20px;
+                        text-decoration: none;
+                        font-family: "m";
+                        color: $white-cl;
+                    }
+                }
+                .menu__list-item:hover {
+                    @include transition($t);
+                    background-color: rgba(255, 76, 41, 0.7);
+                    border-radius: 12px;
+                }
+            }
+        }
+    }
+}

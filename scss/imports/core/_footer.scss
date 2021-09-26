@@ -1,0 +1,29 @@
+// css footer
+footer {
+    width: 100%;
+    background-color: rgb(8, 32, 50);
+    .container {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        .context {
+            .title {
+                font-family: "eb";
+                font-size: 36px;
+                color: $red-cl;
+                text-decoration: none;
+            }
+            .text {
+                font-family: "l";
+                font-size: 16px;
+                color: $white-cl;
+            }
+        }
+        .info {
+            font-family: 'l';
+            font-size: 16px;
+            color: $white-cl
+        }
+    }
+}
