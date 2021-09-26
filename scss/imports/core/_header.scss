@@ -37,4 +37,23 @@ header {
             }
         }
     }
+    @include xs {
+        .container {
+            .logo {
+                a {
+                    font-size: 32px;
+                }
+            }
+            .menu {
+                .menu__list {
+                    .api {
+                        display: none;
+                    }
+                    .menu__list-item {
+                        padding: 4px 8px !important;
+                    }
+                }
+            }
+        }
+    }
 }

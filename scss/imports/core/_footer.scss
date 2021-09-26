@@ -25,5 +25,22 @@ footer {
             font-size: 16px;
             color: $white-cl
         }
+        @include xs {
+            padding: 50px 20px !important;
+            flex-direction: column;
+            align-items: flex-start;
+            .context {
+                .title {
+                    font-size: 28px !important;
+                }
+                .text {
+                    font-size: 12px !important;
+                }
+            }
+            .info {
+                margin-top: 20px;
+                font-size: 12px !important;
+            }
+        }
     }
 }

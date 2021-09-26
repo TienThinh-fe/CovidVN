@@ -17,6 +17,7 @@
                     font-family: r;
                     font-size: 20px;
                     color: $white-cl;
+                    height: 44px;
                 }
             }
         }
@@ -24,6 +25,23 @@
             font-family: 'r';
             color: rgba(255,255,255,0.6);
             margin: 20px;
+        }
+    }
+    @include xs {
+        .container {
+            tr {
+                margin: 12px 0 !important;
+                th {
+                    font-size: 16px !important;
+                }
+                td {
+                    font-size: 12px !important;
+                    height: 36px !important;  
+                }
+            }
+            .note {
+                font-size: 12px;
+            }
         }
     }
 }
