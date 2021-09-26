@@ -41,7 +41,7 @@ header {
         .container {
             .logo {
                 a {
-                    font-size: 32px;
+                    font-size: 28px;
                 }
             }
             .menu {
@@ -51,6 +51,9 @@ header {
                     }
                     .menu__list-item {
                         padding: 4px 8px !important;
+                        a {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
